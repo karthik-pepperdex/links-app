@@ -40,6 +40,11 @@ export default function Home() {
         text="Look at my code on Github"
       />
       <Links
+        image="https://cdn.iconscout.com/icon/free/png-512/discord-2474808-2056094.png"
+        link="https://discord.gg/k3jhgTuU"
+        text="Join my Discord server"
+      />
+      <Links
         image="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png"
         link="https://twitter.com/MrPkar"
         text="Follow me on Twitter"

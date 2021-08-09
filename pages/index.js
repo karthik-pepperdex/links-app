@@ -41,7 +41,7 @@ export default function Home() {
       />
       <Links
         image="https://cdn.iconscout.com/icon/free/png-512/discord-2474808-2056094.png"
-        link="https://discord.gg/k3jhgTuU"
+        link="https://discord.gg/A445wXYd"
         text="Join my Discord server"
       />
       <Links

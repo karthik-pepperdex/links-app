@@ -7,7 +7,7 @@ export default function Home() {
     <div
       style={{
         background:
-          "url(https://images.unsplash.com/photo-1517707711963-adf9078bdf01?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)",
+          "url(https://i.pinimg.com/originals/2f/4d/24/2f4d249ccebb3cd54b31a816133c213b.jpg)",
       }}
       className="flex flex-col !bg-cover items-center justify-center min-h-screen py-2"
     >
@@ -41,7 +41,7 @@ export default function Home() {
       />
       <Links
         image="https://cdn.iconscout.com/icon/free/png-512/discord-2474808-2056094.png"
-        link="https://discord.gg/A445wXYd"
+        link="https://discord.gg/NDFAdJ9DAb"
         text="Join my Discord server"
       />
       <Links

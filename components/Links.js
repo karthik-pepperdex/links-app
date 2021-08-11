@@ -1,17 +1,24 @@
-import Image from "next/image";
+import { motion } from "framer-motion";
 
-function Links({ image, text, link }) {
+function Link({ image, text, href }) {
   return (
-    <a
-      className="flex items-center w-full max-w-md cursor-pointer transform hover:-translate-y-1 hover:scale-110 transition duration-200 ease-in-out p-3 my-3 mx-auto rounded-md ring-[1px] ring-blue-300 backdrop-filter backdrop-blur-2xl bg-white bg-opacity-25 shadow-xl"
-      href={link}
+    <motion.a
+      whileHover={{
+        scale: [1, 1.15, 1.1],
+        zIndex: 50,
+        transition: {
+          duration: 1,
+        },
+      }}
+      className="flex items-center w-full max-w-md cursor-pointer p-3 my-3 mx-auto rounded-md r-2 ring-[2px] ring-indigo-400 text-black backdrop-filter backdrop-blur-2xl bg-white bg-opacity-25 shadow-xl z-30"
       rel="noreferrer"
       target="_blank"
+      href={href}
     >
-      <Image width={40} height={40} src={image} alt={text} />
-      <h2 className="ml-3 text-xl font-semibold md:ml-6">{text}</h2>
-    </a>
+      {image && <img src={image} className="h-10 w-10" alt={text} />}
+      <h2 className="text-xl font-semibold ml-3 md:ml-6">{text}</h2>
+    </motion.a>
   );
 }
 
-export default Links;
+export default Link;

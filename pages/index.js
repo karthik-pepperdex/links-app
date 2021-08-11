@@ -24,41 +24,42 @@ export default function Home() {
           src="/Me.jpg"
           alt="Karthik Pariti"
         />
-        <h2 className="my-3 text-3xl font-bold text-center text-indigo-900 md:text-4xl">
+        <h2 className="my-3 text-3xl font-bold text-center text-gray-800 md:text-4xl">
           Karthik Pariti
         </h2>
       </div>
-
-      <Links
-        image="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
-        link="https://www.instagram.com/__mr.pkar__/"
-        text="Follow me on Instagram"
-      />
-      <Links
-        image="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png"
-        link="https://github.com/Kardev07"
-        text="Look at my code on Github"
-      />
-      <Links
-        image="https://cdn.iconscout.com/icon/free/png-512/discord-2474808-2056094.png"
-        link="https://discord.gg/NDFAdJ9DAb"
-        text="Join my Discord server"
-      />
-      <Links
-        image="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png"
-        link="https://twitter.com/MrPkar"
-        text="Follow me on Twitter"
-      />
-      <Links
-        image="https://icons-for-free.com/iconfiles/png/512/suitcase+work+icon-1320165848716624003.png"
-        link="https://kardev07.github.io/my-portfolio/"
-        text="Checkout my resume"
-      />
-      <Links
-        image="https://icons-for-free.com/iconfiles/png/512/suitcase+work+icon-1320165848716624003.png"
-        link="mailto:karthik.pariti101@gmail.com"
-        text="Mail Me"
-      />
+      <div className="w-full max-w-lg p-6">
+        <Links
+          image="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
+          link="https://www.instagram.com/__mr.pkar__/"
+          text="Follow me on Instagram"
+        />
+        <Links
+          image="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png"
+          link="https://github.com/Kardev07"
+          text="Look at my code on Github"
+        />
+        <Links
+          image="https://cdn.iconscout.com/icon/free/png-512/discord-2474808-2056094.png"
+          link="https://discord.gg/NDFAdJ9DAb"
+          text="Join my Discord server"
+        />
+        <Links
+          image="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png"
+          link="https://twitter.com/MrPkar"
+          text="Follow me on Twitter"
+        />
+        <Links
+          image="https://icons-for-free.com/iconfiles/png/512/suitcase+work+icon-1320165848716624003.png"
+          link="https://kardev07.github.io/my-portfolio/"
+          text="Checkout my resume"
+        />
+        <Links
+          image="https://icons-for-free.com/iconfiles/png/512/suitcase+work+icon-1320165848716624003.png"
+          link="mailto:karthik.pariti101@gmail.com"
+          text="Mail Me"
+        />
+      </div>
     </div>
   );
 }

@@ -40,6 +40,11 @@ export default function Home() {
           text="Look at my code on Github"
         />
         <Links
+          image="https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png?auto=compress"
+          link="https://kardev07.hashnode.dev/"
+          text="Checkout my blogs on Hashnode"
+        />
+        <Links
           image="https://cdn.iconscout.com/icon/free/png-512/discord-2474808-2056094.png"
           link="https://discord.gg/NDFAdJ9DAb"
           text="Join my Discord server"

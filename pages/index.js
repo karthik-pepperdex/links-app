@@ -17,14 +17,12 @@ export default function Home() {
       </Head>
 
       <div className="flex flex-col items-center justify-center mt-5">
-        <Image
-          width={200}
-          height={200}
-          className="mx-auto rounded-full"
-          src="/Me.jpg"
+        <img
+          className="w-[187px] h-[195px] rounded-full mx-auto"
+          src="/Karthik.jpg"
           alt="Karthik Pariti"
         />
-        <h2 className="my-3 text-3xl font-bold text-center text-gray-800 md:text-4xl">
+        <h2 className="my-3 text-3xl font-bold text-center text-gray-200 md:text-gray-800 md:text-4xl">
           Karthik Pariti
         </h2>
       </div>

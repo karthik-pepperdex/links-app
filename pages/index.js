@@ -13,7 +13,7 @@ export default function Home() {
     >
       <Head>
         <title>Contact Karthik</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="Karthik.jpg" />
       </Head>
 
       <div className="flex flex-col items-center justify-center mt-5">
@@ -29,7 +29,7 @@ export default function Home() {
       <div className="w-full max-w-lg p-6">
         <Links
           image="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
-          link="https://www.instagram.com/__mr.pkar__/"
+          link="https://www.instagram.com/_karthik.codes_/"
           text="Follow me on Instagram"
         />
         <Links
